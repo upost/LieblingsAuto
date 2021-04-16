@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LieblingsAuto</string>
+    <string name="about">Ihre coole Auto-App</string>
+    <string name="please_rate">Äußern Sie Ihre Zuneigung!</string>
+    <string-array name="car_names">
+        <item>Schlitten</item>
+        <item>Niedlich</item>
+        <item>Blacky</item>
+        <item>Ente</item>
+        <item>Oldie</item>
+        <item>Rusty</item>
+    </string-array>
+</resources>

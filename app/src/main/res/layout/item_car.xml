@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_gravity="center"
+    android:layout_width="@dimen/carpic_width"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="4dp">
+<FrameLayout
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="@dimen/carpic_width"
+        android:layout_height="@dimen/carpic_height"
+        android:id="@+id/carpic"
+        android:src="@mipmap/car1"
+        />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:numStars="5"
+        android:rating="0" />
+
+</FrameLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="carpic_width">320dp</dimen>
+    <dimen name="carpic_height">240dp</dimen>
+    <dimen name="carpic_small_width">160dp</dimen>
+    <dimen name="carpic_small_height">120dp</dimen>
+    <dimen name="large_font_size">24sp</dimen>
+    <dimen name="small_font_size">16sp</dimen>
+</resources>
